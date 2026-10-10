@@ -1,0 +1,49 @@
+{
+  "inspected_on": "2026-10-10",
+  "roms": [
+    {
+      "path": "roms/bn6f.gba",
+      "size_bytes": 8388608,
+      "header_title": "MEGAMAN6_FXX",
+      "game_code": "BR6E",
+      "header_revision": 0,
+      "header_checksum_valid": true,
+      "sha1": "0676ecd4d58a976af3346caebb44b9b6489ad099",
+      "sha256": "a37c1028adb72082b51e142321fa437967bc54b6f46730a53f6581ad455ad670",
+      "provenance": "not confirmed"
+    },
+    {
+      "path": "roms/bn6g.gba",
+      "size_bytes": 8388608,
+      "header_title": "MEGAMAN6_GXX",
+      "game_code": "BR5E",
+      "header_revision": 0,
+      "header_checksum_valid": true,
+      "sha1": "89fe0bac4fd3d2ab1d2ca35e87ef8b1294a84cd6",
+      "sha256": "572e113eeb53bb29cd9ff8acb9db265cfd48c5e509c8d0e6420b58e71e442cf2",
+      "provenance": "not confirmed"
+    },
+    {
+      "path": "roms/exe6f.gba",
+      "size_bytes": 8388608,
+      "header_title": "ROCKEXE6_RXX",
+      "game_code": "BR6J",
+      "header_revision": 0,
+      "header_checksum_valid": true,
+      "sha1": "d1ce0ecc8e241a716274b9fb1b6eb07fb42dd166",
+      "sha256": "21300170c404371da5cd0c327c3959c0981cf0af6e6bb9189fec4010fc6258a4",
+      "provenance": "not confirmed"
+    },
+    {
+      "path": "roms/exe6g.gba",
+      "size_bytes": 8388608,
+      "header_title": "ROCKEXE6_GXX",
+      "game_code": "BR5J",
+      "header_revision": 0,
+      "header_checksum_valid": true,
+      "sha1": "48472efa4657db47cd3b6d146d9fe9fe730c4439",
+      "sha256": "fa6808a5c63c2cc09430ec7ad74c6e02f4f35928448e6ff5f8dbdec0795160cf",
+      "provenance": "not confirmed"
+    }
+  ]
+}

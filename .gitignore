@@ -1,3 +1,5 @@
-.gba
-.sav
-.exe
+*.gba
+*.sav
+*.exe
+/roms/
+/references/
