@@ -3,3 +3,5 @@
 *.exe
 /roms/
 /references/
+__pycache__/
+*.pyc

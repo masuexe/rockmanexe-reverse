@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-10",
+  "source_rom_sha1": "0676ecd4d58a976af3346caebb44b9b6489ad099",
+  "target_rom_sha1": "d1ce0ecc8e241a716274b9fb1b6eb07fb42dd166",
+  "reference_bn6f_commit": "d57c1968d27452de1042eff78b5dfbf124922666",
+  "method": "Thumb instruction-range candidates masking BL operands and PC-relative LDR immediates; manually checked call/literal links, not whole-function equivalence",
+  "functions": [
+    {
+      "name": "battle_input_to_ai",
+      "source_start": "0x8012dfc",
+      "source_end": "0x8012e6c",
+      "target_start": "0x80133fc",
+      "target_end": "0x801346c",
+      "source_sha256": "ec7a334e7d006bda55e638615932c53ecef31c70b8590cd1819fa6d4817b1fe6",
+      "target_sha256": "4bad13f9caac0a2901bfd7af47570ac20b78e3325088dc24ea894c83d35f32bd",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "update_charge_and_requests",
+      "source_start": "0x8012e74",
+      "source_end": "0x8012e98",
+      "target_start": "0x8013474",
+      "target_end": "0x8013498",
+      "source_sha256": "81c78f8ae63d7869d9d4719b5c5fccac4bd357557cec6122ccd28fc0f4f10e34",
+      "target_sha256": "f97a07e784b4ff3894bf066d29b4db7ec0040857cd4ae6df3617ec4de9599a08",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "charge_tick",
+      "source_start": "0x8012ebc",
+      "source_end": "0x8012f3e",
+      "target_start": "0x80134bc",
+      "target_end": "0x801353e",
+      "source_sha256": "c7423b526684e0364b9e17e8dc7bf40977e0d5562420feab0ed102860e1ccf06",
+      "target_sha256": "f425a6f6acebfc3f618176e57125c69620e9e7dc9e2af273f342846d4c1a6271",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "can_charge",
+      "source_start": "0x8012f3e",
+      "source_end": "0x8012f62",
+      "target_start": "0x801353e",
+      "target_end": "0x8013562",
+      "source_sha256": "0fa4565d51f7011bc33ab2ac6784a390660f0ccef35fe5b6264ccfd33e5ae842",
+      "target_sha256": "858f92bde6510de062dc6bd5c6c5195b432c0f3c62806e48cd14523953b6de5a",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "charge_threshold",
+      "source_start": "0x8012f62",
+      "source_end": "0x8012fac",
+      "target_start": "0x8013562",
+      "target_end": "0x80135ac",
+      "source_sha256": "c99e09708a4246589672970e40f5671552480cf7c692ed9ff46d0a6089b61dbf",
+      "target_sha256": "87b45aa4f0412aa5d69764c9ab8dbb346cc3219085eaa893babc3f234e201010",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "input_to_attack_flags",
+      "source_start": "0x8012fc8",
+      "source_end": "0x8013236",
+      "target_start": "0x80135c8",
+      "target_end": "0x8013836",
+      "source_sha256": "a2bdd31a3e1d7c0512a296450bea1d64c00a3958b50ebb36ef5a535470aa164c",
+      "target_sha256": "d3dea5d15285b85227cce1da19bde0a389e2ebb37700ed605303d902af9a0263",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "can_charge_B",
+      "source_start": "0x8013396",
+      "source_end": "0x80133ae",
+      "target_start": "0x8013996",
+      "target_end": "0x80139ae",
+      "source_sha256": "f7da3beea9533ee08e0a14fbb76220cd4eb965c02d2a113a4b23862778d79cd7",
+      "target_sha256": "f7da3beea9533ee08e0a14fbb76220cd4eb965c02d2a113a4b23862778d79cd7",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "normal_attack_init_dispatch",
+      "source_start": "0x8011764",
+      "source_end": "0x801177a",
+      "target_start": "0x8011d74",
+      "target_end": "0x8011d8a",
+      "source_sha256": "db73c325d54d55cdb9765dbd77e6287c0d726699a9fb0913f255df5aa9517043",
+      "target_sha256": "db73c325d54d55cdb9765dbd77e6287c0d726699a9fb0913f255df5aa9517043",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "charged_attack_init_dispatch",
+      "source_start": "0x80117a4",
+      "source_end": "0x80117ba",
+      "target_start": "0x8011db4",
+      "target_end": "0x8011dca",
+      "source_sha256": "d7ffd1191d9f4e9578d6aee782bae5c72d0437a53bd48cd3d1cf443f7e8750f0",
+      "target_sha256": "d7ffd1191d9f4e9578d6aee782bae5c72d0437a53bd48cd3d1cf443f7e8750f0",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "normal_buster_init",
+      "source_start": "0x8011a26",
+      "source_end": "0x8011a7e",
+      "target_start": "0x8012036",
+      "target_end": "0x801208e",
+      "source_sha256": "2700daa0015e59df292332386e7d763914f46efd56e652f8c0cfcdfb9943db40",
+      "target_sha256": "0354006d077440b8a4f711b83c35e38b4c8aa73e9bf682fb2954f9647e4b83d1",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "player_update",
+      "source_start": "0x80ea484",
+      "source_end": "0x80ea4c0",
+      "target_start": "0x80efe14",
+      "target_end": "0x80efe50",
+      "source_sha256": "50b29f0df4859011a262f8542f3483b3af89310f46a8bac9c0059cfefc7f657b",
+      "target_sha256": "3308cb9ba7653d07d7eaea393eb2adcf3c0694c8d65fb5e53c39b80748c88bf5",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "select_attack_requests",
+      "source_start": "0x80f0354",
+      "source_end": "0x80f0606",
+      "target_start": "0x80f5cec",
+      "target_end": "0x80f5f9e",
+      "source_sha256": "58a105a54b9e9892e880cfaa5d4c47496503c90280e727cdd90f40292e9f36ec",
+      "target_sha256": "5adf1f642341c88d1ecd23b21d6702dc120c871acf99abc76d2c4cc5fdf4bbf6",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "normal_attack_phase",
+      "source_start": "0x80eb450",
+      "source_end": "0x80eb502",
+      "target_start": "0x80f0de0",
+      "target_end": "0x80f0e92",
+      "source_sha256": "38039c1dddb92e4974f5b5ea6f0b47958f92119f654b7433eebb719ac54bc3c9",
+      "target_sha256": "e219313514a1eee86f9bb36cf1c287a4e79753227c93eb0c33e5243f3c831d45",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "charged_attack_phase",
+      "source_start": "0x80ebe54",
+      "source_end": "0x80ebeb2",
+      "target_start": "0x80f17f4",
+      "target_end": "0x80f1852",
+      "source_sha256": "e2878204f5ae510c9e09bacb0852b387a28a1cdc22e1a10f1467c84b8f4590cc",
+      "target_sha256": "c94e6eafce5fb91ef33f50b6d6667fa3f75970748f61472663bfe6c07e419908",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "spawn_attack_object",
+      "source_start": "0x80b8e30",
+      "source_end": "0x80b8e58",
+      "target_start": "0x80baec0",
+      "target_end": "0x80baee8",
+      "source_sha256": "97e1bf84cfbf9cf6c93c30f325f98584381ccef83c4580daf8fa6c7b89b43710",
+      "target_sha256": "c3f0120414d69391c79f8f466a0c5ebb5510c26d8f0aa3ccddcd4a6a81d4d2c0",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "input_transport_mode0",
+      "source_start": "0x801ff18",
+      "source_end": "0x801ffd6",
+      "target_start": "0x802032c",
+      "target_end": "0x80203ea",
+      "source_sha256": "3a0b711b1166b43732d4d77cf54f31713aae959fdc8079c14b00162a1bd8f4de",
+      "target_sha256": "50692c2cca51e809342b98ee99727ea9900740ec8fd8578aae9197ded55106eb",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "input_transport_other",
+      "source_start": "0x801ffd6",
+      "source_end": "0x80200a4",
+      "target_start": "0x80203ea",
+      "target_end": "0x80204b8",
+      "source_sha256": "4f3910d99c6c92b8e6b9803ac7c52a2010aaff06d132722f28c15f78a2b9e539",
+      "target_sha256": "3cc814ab81a935c0358dbea1ab494803eeccfc603a81f1eaa9751239710be986",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "battle_buffer_write",
+      "source_start": "0x800a0d6",
+      "source_end": "0x800a0ee",
+      "target_start": "0x800a6be",
+      "target_end": "0x800a6d6",
+      "source_sha256": "df0bda8278723b49a1229c85335e775f4011344bef16a1788ba073f225b5944a",
+      "target_sha256": "df0bda8278723b49a1229c85335e775f4011344bef16a1788ba073f225b5944a",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "normal_attack_dispatch",
+      "source_start": "0x80eb436",
+      "source_end": "0x80eb444",
+      "target_start": "0x80f0dc6",
+      "target_end": "0x80f0dd4",
+      "source_sha256": "672d664995fd400cf6dd3c5c76e6cc9511d3313790e521af7e3b59d2f49dd775",
+      "target_sha256": "672d664995fd400cf6dd3c5c76e6cc9511d3313790e521af7e3b59d2f49dd775",
+      "candidate_count": 105,
+      "resolution": "Japanese AIAttackJumptable entry, then phase table and mapped phase function"
+    },
+    {
+      "name": "charged_attack_dispatch",
+      "source_start": "0x80ebe00",
+      "source_end": "0x80ebe0e",
+      "target_start": "0x80f17a0",
+      "target_end": "0x80f17ae",
+      "source_sha256": "22a4623165720781de5c47688fd8c549396dbf67cc7e70200ab1b12e6d2b2e67",
+      "target_sha256": "22a4623165720781de5c47688fd8c549396dbf67cc7e70200ab1b12e6d2b2e67",
+      "candidate_count": 105,
+      "resolution": "Japanese AIAttackJumptable entry, then phase table and mapped phase function"
+    },
+    {
+      "name": "input_local_transfer_copy",
+      "source_start": "0x801fe6c",
+      "source_end": "0x801fee8",
+      "target_start": "0x8020280",
+      "target_end": "0x80202fc",
+      "source_sha256": "2a8583d55bbc2cc9e1994b2835c72e38c2d8bef6e23c868ee632e2aefc79cba8",
+      "target_sha256": "21b7726a63eb73c872e4a5b3b271388a9a032ef01c6c011607c04cc0e68e86c9",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "buster_spawn_and_cooldown",
+      "source_start": "0x800faac",
+      "source_end": "0x800fae0",
+      "target_start": "0x80100b4",
+      "target_end": "0x80100e8",
+      "source_sha256": "0af792273e43d3422d8bf9f5cbf9b08521131f167c670c272e4ffb238b827c94",
+      "target_sha256": "6d43c88b62c6e8f0e3fd4442a5a37354dece73fbb69a7a0ef751959d477da16c",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "spawn_buster_type3",
+      "source_start": "0x80c4ffe",
+      "source_end": "0x80c5014",
+      "target_start": "0x80c7f30",
+      "target_end": "0x80c7f46",
+      "source_sha256": "774d85d5436b5418fff26d01aed4b13fa48e2b4837bced85ecdbcd20a3889654",
+      "target_sha256": "9f1fc5394a963a66bc97924905a48c1060aeba459e1d5a494f98c448d4c38398",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    },
+    {
+      "name": "basic_battle_object_init",
+      "source_start": "0x801155a",
+      "source_end": "0x801156a",
+      "target_start": "0x8011b62",
+      "target_end": "0x8011b72",
+      "source_sha256": "cca0840128fc19c2735281292983e909e76051e1b811e919cf41660949f8a4ab",
+      "target_sha256": "cca0840128fc19c2735281292983e909e76051e1b811e919cf41660949f8a4ab",
+      "candidate_count": 1,
+      "resolution": "unique masked range; linked call/literal operands checked"
+    }
+  ],
+  "regional_changed_function": {
+    "name": "charged_buster_init",
+    "source_start": "0x08011a7e",
+    "source_end": "0x08011ada",
+    "target_start": "0x0801208e",
+    "target_end": "0x080120da",
+    "finding": "Japanese body omits English emotion-result-5 damage override; independently decompiled and runtime-tested"
+  }
+}
